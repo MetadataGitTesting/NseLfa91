@@ -1,0 +1,81 @@
+name: ada.gleichner
+description: access
+version: 0.0.1
+author: wrbcb9z6.n5beany9@62dmiexl.com
+language: sql
+buildSystem: ''
+buildSystemDetails: null
+pipelines: {}
+datasets: {}
+templates: {}
+jobs: {}
+gemContainer:
+  languageVersion: ''
+  gemLibsVersion: ''
+  gems: {}
+  dependencies: null
+functions:
+  author: null
+  createdAt: '2024-10-24 20:25:07'
+  udfs: {}
+  udafs: {}
+  expressions: {}
+  airflowFunctions: {}
+  businessRules: {}
+subgraphs: {}
+sqlModels:
+  .prophecy/metadata/sqlmodels/model:
+    name: model
+    schema: null
+    description: null
+    author: wrbcb9z6.n5beany9@62dmiexl.com
+    files:
+    - model.sql
+    - .prophecy/ide/model.json
+    sqlDependencies:
+      models: []
+      datasets: []
+      seeds: []
+      sources: []
+      snapshots: []
+    createdAt: '2024-10-24 20:25:08'
+sqlSnapshots:
+  .prophecy/metadata/sqlsnapshots/snapshot:
+    name: snapshot
+    schema: null
+    description: snapshot desc
+    author: wrbcb9z6.n5beany9@62dmiexl.com
+    files:
+    - snapshot.sql
+    - .prophecy/ide/snapshot.json
+    sqlDependencies:
+      models: []
+      datasets: []
+      seeds: []
+      sources: []
+      snapshots: []
+    createdAt: '2024-10-24 20:25:08'
+sqlTests: {}
+sqlMacros:
+  .prophecy/metadata/sqlmacros/macro:
+    name: macro
+    macroType: macro
+    description: macro desc
+    author: wrbcb9z6.n5beany9@62dmiexl.com
+    files:
+    - macros.sql
+    - .prophecy/ide/macros.json
+    createdAt: '2024-10-24 20:25:08'
+sqlSeeds: {}
+sqlSources: {}
+sqlUnreferencedSources: {}
+sqlPipeline:
+  name: sqlPipeline
+  description: null
+  author: wrbcb9z6.n5beany9@62dmiexl.com
+  createdAt: '2024-10-24 20:25:07'
+dependencies: []
+projectDependencies: {}
+flags:
+  shouldAddDefaultDependenciesIfAbsent: true
+pipelineConfigurations: {}
